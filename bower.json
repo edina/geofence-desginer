@@ -27,7 +27,8 @@
     "leaflet": "~0.7.3",
     "leaflet-draw": "~0.2.4",
     "pcapi": "~0.0.7",
-    "i18next": "~1.8.0"
+    "i18next": "~1.8.0",
+    "es6-module-loader": "~0.16.6"
   },
   "devDependencies": {
     "traceur": "~0.0.88"
