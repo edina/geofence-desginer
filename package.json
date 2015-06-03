@@ -22,7 +22,27 @@
   },
   "homepage": "https://github.com/edina/geofence-designer",
   "devDependencies": {
-    "beefy": "^2.1.5",
-    "browserify": "^9.0.8"
+    "beefy": "^2.1.5"
+  },
+  "dependencies": {},
+  "jspm": {
+    "directories": {
+      "packages": "app/jspm_packages"
+    },
+    "configFile": "app/config.js",
+    "dependencies": {
+      "backbone": "npm:backbone@^1.2.0",
+      "bootstrap": "github:twbs/bootstrap@^3.3.4",
+      "i18next": "npm:i18next@^1.9.0",
+      "jquery": "github:components/jquery@^2.1.4",
+      "leaflet": "npm:leaflet@^0.7.3",
+      "leaflet-draw": "npm:leaflet-draw@^0.2.3",
+      "pcapi": "npm:pcapi@^0.0.7",
+      "underscore": "npm:underscore@^1.8.3"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
   }
 }
