@@ -1,8 +1,8 @@
-import {render} from './widget'
-import Mapper from './map'
+import Backbone from 'backbone';
+import {Router} from './router';
 
-console.log(1)
-render(document.body);
-
-let mapper = new Mapper();
-mapper.init();
+$(() => {
+    // *Finally, we kick things off by creating the **App**.*
+    new Router();
+    Backbone.history.start();
+});

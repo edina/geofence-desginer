@@ -11,13 +11,13 @@
     <title>Survey Designer</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <!-- Bootstrap theme -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="lib/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="bower_components/leaflet-dist/leaflet.css">
+    <link rel="stylesheet" href="lib/leaflet-dist/leaflet.css">
     <!--[if lte IE 8]>
-      <link rel="stylesheet" href="bower_components/leaflet-dist/leaflet.ie.css" />
+      <link rel="stylesheet" href="lib/leaflet-dist/leaflet.ie.css" />
     <![endif]-->
 
     <!-- Custom styles for this template -->
@@ -41,32 +41,22 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            
+            <li class="active"><a href="#/geofence">Design geofence</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
-    <div class="container theme-showcase">
-
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="map"></div>
-        </div><!-- /.col-sm-12 -->
-      </div>
-
-    </div> <!-- /container -->
+    <div class="container theme-showcase" role="main" id="content"></div> <!-- /container -->
 
     <!--
     Scripts
     ================================================== 
     Placed at the end of the document so the pages load faster -->
-    <!--<script src="scripts/vendor.js"></script>
-    <script src="scripts/main.js"></script>-->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/leaflet-dist/leaflet.js"></script>
-    <script src="bower_components/traceur/traceur.min.js"></script>
-    <script src="bower_components/es6-module-loader/dist/es6-module-loader.js"></script>
-    <script>System.import('js/main')</script>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+      System.import('js/main');
+    </script>
   </body>
 </html>
