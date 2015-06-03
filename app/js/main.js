@@ -1,8 +1,8 @@
 import Backbone from 'backbone';
-import {Router} from './router';
+import {GeofenceDesigner} from './router';
 
 $(() => {
     // *Finally, we kick things off by creating the **App**.*
-    new Router();
+    new GeofenceDesignerRouter();
     Backbone.history.start();
 });

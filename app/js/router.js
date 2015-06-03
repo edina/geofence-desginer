@@ -2,7 +2,7 @@ import Backbone from 'backbone';
 import { MapView } from './views/Map';
 
 
-export class Router extends Backbone.Router {
+export class GeofenceDesigner extends Backbone.Router {
 
   constructor () {
     super();
