@@ -32,12 +32,12 @@
   "dependencies": {},
   "jspm": {
     "directories": {
-      "packages": "app/jspm_packages"
+      "baseURL": "app"
     },
-    "configFile": "app/config.js",
     "dependencies": {
       "backbone": "npm:backbone@^1.2.0",
       "bootstrap": "github:twbs/bootstrap@^3.3.4",
+      "css": "github:systemjs/plugin-css@^0.1.12",
       "i18next": "npm:i18next@^1.9.0",
       "jquery": "github:components/jquery@^2.1.4",
       "leaflet": "npm:leaflet@^0.7.3",

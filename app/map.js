@@ -1,3 +1,4 @@
+import 'jspm_packages/npm/leaflet@0.7.3/dist/leaflet.css!';
 import L from 'leaflet';
 
 export default class Mapper {
@@ -7,7 +8,7 @@ export default class Mapper {
     
     init() {
         // specify the path to the leaflet images folder
-        L.Icon.Default.imagePath = 'lib/leaflet/dist/images/';
+        L.Icon.Default.imagePath = 'jspm_packages/npm/leaflet@0.7.3/dist/images/';
 
         // initialize the map
         var map = new L.Map('map').setView([37.75, -122.23], 10);
