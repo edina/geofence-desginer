@@ -7,7 +7,7 @@ export class GeofenceRouter extends Backbone.Router {
   constructor () {
     super();
     this.routes = {
-      'geofence': 'geofence'
+      'geofence-designer': 'geofence'
     };
     this._bindRoutes();
   }

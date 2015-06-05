@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "node_modules/jshint/bin/jshint src/www/js/**.js",
     "release": "npm run lint && node_modules/release-it/bin/release.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-server": "node_modules/beefy/bin/beefy --cwd app"
   },
   "repository": {
     "type": "git",
